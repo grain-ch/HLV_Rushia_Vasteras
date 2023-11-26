@@ -1,0 +1,19 @@
+<WGT012_533mm_3tube_M34_SW_dead.mfm>
+	<fx>	shaders/materials/pbs/ship_material.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/default_ao.dds	</Texture>
+	</property>
+	<property>	detailMap
+		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/WGT012_533mm_3tube_M34_SW_dead_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/WGT012_533mm_3tube_M34_SW_dead_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/WGT012_533mm_3tube_M34_SW_n.dds	</Texture>
+	</property>
+</WGT012_533mm_3tube_M34_SW_dead.mfm>

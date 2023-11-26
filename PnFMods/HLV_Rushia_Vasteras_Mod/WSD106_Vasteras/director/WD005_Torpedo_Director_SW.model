@@ -1,0 +1,7 @@
+<WD005_Torpedo_Director_SW.model>
+	<castsShadow>	false	</castsShadow>
+	<parent>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/director/lods/WD005_Torpedo_Director_SW_lod1	</parent>
+	<extent>	4.0000	</extent>
+	<nodefullVisual>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/director/WD005_Torpedo_Director_SW	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</WD005_Torpedo_Director_SW.model>

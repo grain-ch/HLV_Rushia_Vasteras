@@ -1,0 +1,10 @@
+<transparent_glass_alpha.mfm>
+	<fx>	shaders/materials/pbs/glass_material.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	diffuseMap
+		<Texture>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/ship/transparent_glass_alpha_a.dds	</Texture>
+	</property>
+	<property>	doubleSided
+		<Bool>	true	</Bool>
+	</property>
+</transparent_glass_alpha.mfm>

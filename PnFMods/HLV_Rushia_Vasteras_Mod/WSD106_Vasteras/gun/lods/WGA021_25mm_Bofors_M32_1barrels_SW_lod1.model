@@ -1,0 +1,7 @@
+<WGA021_25mm_Bofors_M32_1barrels_SW_lod1.model>
+	<castsShadow>	false	</castsShadow>
+	<parent>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/lods/WGA021_25mm_Bofors_M32_1barrels_SW_lod2	</parent>
+	<extent>	12.0000	</extent>
+	<nodefullVisual>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/lods/WGA021_25mm_Bofors_M32_1barrels_SW_lod1	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</WGA021_25mm_Bofors_M32_1barrels_SW_lod1.model>

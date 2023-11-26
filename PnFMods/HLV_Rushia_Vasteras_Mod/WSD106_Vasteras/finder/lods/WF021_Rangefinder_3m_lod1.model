@@ -1,0 +1,7 @@
+<WF021_Rangefinder_3m_lod1.model>
+	<castsShadow>	false	</castsShadow>
+	<parent>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/finder/lods/WF021_Rangefinder_3m_lod2	</parent>
+	<extent>	8.0000	</extent>
+	<nodefullVisual>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/finder/lods/WF021_Rangefinder_3m_lod1	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</WF021_Rangefinder_3m_lod1.model>
