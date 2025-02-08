@@ -16,4 +16,22 @@
 	<property>	normalMap
 		<Texture>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/WGA015_40mm_Bofors_M36_1barrels_SW_n.dds	</Texture>
 	</property>
+	<property>	g_detailAlbedoInfluence
+		<Float>	0.6000	</Float>
+	</property>
+	<property>	g_detailFadeDistance
+		<Float>	3.0000	</Float>
+	</property>
+	<property>	g_detailGlossInfluence
+		<Float>	1.0000	</Float>
+	</property>
+	<property>	g_detailNormalInfluence
+		<Float>	0.4000	</Float>
+	</property>
+	<property>	g_detailScaleU
+		<Float>	2.0000	</Float>
+	</property>
+	<property>	g_detailScaleV
+		<Float>	2.0000	</Float>
+	</property>
 </WGA015_40mm_Bofors_M36_1barrels_SW.mfm>

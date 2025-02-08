@@ -1,14 +1,7 @@
 <WGA016_20mm_Madsen_M38_SW.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Gun	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,32 +9,107 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	HP_gunFire1	</identifier>
+				<identifier>	Gun	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
-					<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
-					<row3>	0.0000 0.1546 0.0823 1.0000	</row3>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
+				<node>
+					<identifier>	HP_gunFire1	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 0.8660 -0.5000 0.0000	</row1>
+						<row2>	0.0000 0.5000 0.8660 0.0000	</row2>
+						<row3>	0.0000 0.1545 0.0823 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	Gun	</node>
-		<geometry>
-			<vertices>	GunShape.vertices	</vertices>
-			<primitive>	GunShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
-					<mfm>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/WGA016_20mm_Madsen_M38_SW.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.0667 0.0000 -0.0863	</min>
-		<max>	0.0667 0.2458 0.1734	</max>
+		<max>	0.0667 0.2457 0.1733	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	GunShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Gun	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/WGA016_20mm_Madsen_M38_SW.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Gun_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Gun	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/WGA016_20mm_Madsen_M38_SW.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Gun_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Gun	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/WGA016_20mm_Madsen_M38_SW.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Gun_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Gun	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+				<mfm>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/WGA016_20mm_Madsen_M38_SW.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	4.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	GunShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	12.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Gun_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	18.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Gun_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	50.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	Gun_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </WGA016_20mm_Madsen_M38_SW.visual>

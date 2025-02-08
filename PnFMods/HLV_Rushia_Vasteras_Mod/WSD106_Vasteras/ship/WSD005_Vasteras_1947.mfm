@@ -1,4 +1,5 @@
 <WSD005_Vasteras_1947.mfm>
+	<!--<fx>	shaders/materials/pbs/ship_material.fx	</fx>-->
 	<fx>	shaders/materials/pbs/ship_emissive_material.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	emissivePower
@@ -13,6 +14,7 @@
 	<property>	alphaReference
 		<Int>	150	</Int>
 	</property>
+	<collisionFlags>	0	</collisionFlags>
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/ship/WSD005_Vasteras_1947_ao.dds	</Texture>
 	</property>

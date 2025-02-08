@@ -29,9 +29,9 @@
 		<Float>	0.4000	</Float>
 	</property>
 	<property>	g_detailScaleU
-		<Float>	2.0000	</Float>
+		<Float>	4.0000	</Float>
 	</property>
 	<property>	g_detailScaleV
-		<Float>	2.0000	</Float>
+		<Float>	4.0000	</Float>
 	</property>
 </WGA001_40mm_Bofors_Mk1_dead.mfm>

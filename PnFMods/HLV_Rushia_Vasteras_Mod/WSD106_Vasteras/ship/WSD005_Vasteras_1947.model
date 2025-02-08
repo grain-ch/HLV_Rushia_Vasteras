@@ -1,7 +1,6 @@
 <WSD005_Vasteras_1947.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/ship/lods/WSD005_Vasteras_1947_Full_lod4	</parent>
-	<extent>	300.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/ship/WSD005_Vasteras_1947	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/ship/WSD005_Vasteras_1947.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </WSD005_Vasteras_1947.model>

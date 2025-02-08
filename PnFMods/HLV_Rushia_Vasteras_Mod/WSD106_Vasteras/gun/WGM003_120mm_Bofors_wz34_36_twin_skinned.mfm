@@ -1,18 +1,6 @@
 <WGM003_120mm_Bofors_wz34_36_twin_skinned.mfm>
-	<fx>	shaders/materials/pbs/ship_emissive_material_skinned.fx	</fx>
+	<fx>	shaders/materials/pbs/ship_material_skinned.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
-	<property>	emissivePower
-		<Float>	1.20000	</Float>
-	</property>
-	<property>	doubleSided
-		<Bool>	false	</Bool>
-	</property>
-	<property>	alphaTestEnable
-		<Bool>	true	</Bool>
-	</property>
-	<property>	alphaReference
-		<Int>	150	</Int>
-	</property>
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/WGM003_120mm_Bofors_wz34_36_twin_ao.dds	</Texture>
 	</property>

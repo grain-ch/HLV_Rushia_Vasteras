@@ -1,7 +1,0 @@
-<WGM003_120mm_Bofors_wz34_36_twin_lod2.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/lods/WGM003_120mm_Bofors_wz34_36_twin_lod3	</parent>
-	<extent>	25.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/lods/WGM003_120mm_Bofors_wz34_36_twin_lod2	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</WGM003_120mm_Bofors_wz34_36_twin_lod2.model>

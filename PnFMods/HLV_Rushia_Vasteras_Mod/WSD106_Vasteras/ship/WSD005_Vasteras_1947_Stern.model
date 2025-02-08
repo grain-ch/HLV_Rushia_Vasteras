@@ -1,7 +1,6 @@
 <WSD005_Vasteras_1947_Stern.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/ship/lods/WSD005_Vasteras_1947_Stern_lod1	</parent>
-	<extent>	8.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/ship/WSD005_Vasteras_1947_Stern	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/ship/WSD005_Vasteras_1947_Stern.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </WSD005_Vasteras_1947_Stern.model>

@@ -1,7 +1,0 @@
-<WGB020_450mm_Depth_Charge_Thrower_SW_lod2.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/lods/WGB020_450mm_Depth_Charge_Thrower_SW_lod3	</parent>
-	<extent>	25.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/lods/WGB020_450mm_Depth_Charge_Thrower_SW_lod2	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</WGB020_450mm_Depth_Charge_Thrower_SW_lod2.model>

@@ -1,7 +1,0 @@
-<WGA016_20mm_Madsen_M38_SW_dead_lod1.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/lods/WGA016_20mm_Madsen_M38_SW_dead_lod2	</parent>
-	<extent>	12.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Rushia_Vasteras_Mod/WSD106_Vasteras/gun/lods/WGA016_20mm_Madsen_M38_SW_dead_lod1	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</WGA016_20mm_Madsen_M38_SW_dead_lod1.model>
